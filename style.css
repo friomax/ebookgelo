@@ -650,6 +650,18 @@ h3 { font-size: 20px; }
   letter-spacing: .02em;
 }
 .price-old s { color: var(--gray-500); }
+.price-badge {
+  display: inline-block;
+  margin-left: 8px;
+  padding: 3px 10px;
+  background: var(--orange);
+  color: var(--white);
+  border-radius: 999px;
+  font-size: 12px;
+  font-weight: 800;
+  letter-spacing: .04em;
+  vertical-align: middle;
+}
 .price-now {
   display: flex;
   align-items: baseline;
